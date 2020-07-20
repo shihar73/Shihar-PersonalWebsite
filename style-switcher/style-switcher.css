@@ -1,0 +1,206 @@
+/* Switcher CSS */
+.switcher{
+	visibility: ;
+}
+.switcher .switch-h {
+	position: absolute;
+	left: 120%;
+	top: 8px;
+	width: 120px;
+	text-align: center;
+	color: #eee;
+	background:#555;
+	font-size: 13px;
+	line-height:20px;
+	border-radius:4px;
+	padding:5px 0px;
+	display:none;
+}
+.switcher .switch-h b{
+	font-size:12px;
+	display:block;
+	font-weight:400;
+	color:#bbb;
+}
+.switch-h:after, .switch-h:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.switch-h:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #555;
+	border-width: 7px;
+	margin-top: -7px;
+}
+.switch-h:before {
+	border-color: rgba(221, 221, 221, 0);
+	border-width: 8px;
+	margin-top: -8px;
+}
+.switcher .switch {
+	position: absolute;
+	left: 100%;
+	top: 13px;
+	width: 35px;
+	height: 38px;
+	line-height: 37px;
+	text-align: center;
+	color: #9a9a9a;
+	font-size: 18px;
+	font-weight: bold;
+	background: #fff;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.switcher hr { 
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border: 0; 
+	border-top: 1px solid #eee;
+}
+.switcher h4 {
+	margin-top: 0;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 13px;
+	font-weight: 600;
+}
+.switcher p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #878787;
+}
+.switcher .s-layout {
+	border: 1px solid #ddd !important;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	margin-top: 6px;
+	padding: 0 5px;
+	color: #767676;
+	border-radius: 2px;
+}
+.switcher .s-pattern img,
+.switcher .s-back-img img,
+.switcher .s-color img{
+	display: inline-block;
+	margin: 0 3px;
+	margin-top: 6px;
+	border-radius: 2px;
+}
+.s-color {
+	margin-bottom: 20px;
+}
+.s-color a {
+	width: 70px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 4px;
+	background: #000;
+}
+
+a[data-code="default"] {
+	background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+a[data-code="color-1"] {
+	    background: #38f9d7;
+    background: -webkit-linear-gradient(to right, #43e97b, #38f9d7);
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+}
+a[data-code="color-2"] {
+	    background: #fee140;
+    background: -webkit-linear-gradient(to right, #fa709a, #fee140);
+    background: linear-gradient(to right, #fa709a, #fee140);
+}
+a[data-code="color-3"] {
+	background: #330867;
+    background: -webkit-linear-gradient(to right, #30cfd0, #330867);
+    background: linear-gradient(to right, #30cfd0, #330867);
+}
+a[data-code="color-4"] {
+	    background: #b490ca;
+    background: -webkit-linear-gradient(to right, #5ee7df, #b490ca);
+    background: linear-gradient(to right, #5ee7df, #b490ca);
+}
+a[data-code="color-5"] {
+	background: #764ba2;
+    background: -webkit-linear-gradient(to right, #667eea, #764ba2);
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+a[data-code="color-6"] {
+	    background: #009efd;
+    background: -webkit-linear-gradient(to right, #2af598, #009efd);
+    background: linear-gradient(to right, #2af598, #009efd);
+}
+a[data-code="color-7"] {
+	    background: #ff0844;
+    background: -webkit-linear-gradient(to right, #ff0844, #ffb199);
+    background: linear-gradient(to right, #ff0844, #ffb199);
+}
+a[data-code="color-8"] {
+	    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+a[data-code="color-9"] {
+	    background: #ff7eb3;
+    background: -webkit-linear-gradient(to right, #ff7eb3, #ff758c);
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+a[data-code="color-10"] {
+	background: #feea3b;
+}
+a[data-code="color-11"] {
+	    background: #8ac249;
+}
+a[data-code="color-12"] {
+	    background: #f44336;
+}
+a[data-code="color-13"] {
+	    background: #EC407A;
+}
+a[data-code="color-14"] {
+	    background: #7E57C2;
+}
+a[data-code="color-15"] {
+	    background: #FFC107;
+}
+a[data-code="color-16"] {
+	    background: #d50000;
+}
+a[data-code="color-17"] {
+	background: #FFB300;
+}
+a[data-code="color-18"] {
+	background: #00E676;
+}
+a[data-code="color-19"] {
+	background: #009688;
+}
+
+
+.switcher .s-site a {
+	border: 1px solid #666;
+    display: inline-block;
+    vertical-align: top;
+    padding: 9px 15px 7px 15px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 13px;
+    color: #000;
+    text-decoration: none !important;
+}
+
