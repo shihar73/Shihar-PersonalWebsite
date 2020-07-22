@@ -664,7 +664,7 @@
                         <textarea id="body" name="comment" placeholder="Describe your project" rows="3" class="form-control"></textarea>
                       </div>
                       <div class="send">
-                        <button type="button" class="m-btn m-btn-theme"><i class="fa fa-envelope-o" aria-hidden="true"></i>Send</button>
+                        <input type="button" value="send" class="m-btn m-btn-theme" onclick="sendmail()">
                       </div>
                     </form>
                   </div>
@@ -700,6 +700,7 @@
   <!-- jQuery -->
   <script src="static/js/jquery-3.2.1.min.js"></script>
   <script src="static/js/jquery-migrate-3.0.0.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- Plugins -->
   <script src="static/plugin/bootstrap/js/popper.min.js"></script>
