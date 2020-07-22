@@ -253,7 +253,7 @@ function sendemail(){
     Body : "name = " + name + ", Email = "+email +", body = "+ body,
   })
   .then(function(message){
-    alert("mail sent successfully")
+    alert("sent successfully")
   });
 
 }
