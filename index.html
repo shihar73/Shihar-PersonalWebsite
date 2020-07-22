@@ -650,21 +650,21 @@
                   <!-- Contact Form -->
                   <div class="contact-form">
                     <h2>Say Something</h2>
-                    <form>
+                    <form method="post">
                       <div class="form-group">
-                        <input name="Phone" placeholder="Name" class="form-control" type="text">
+                        <input id="name" name="Phone" placeholder="Name" class="form-control" type="text">
                       </div>
                       <div class="form-group">
-                        <input name="Email" placeholder="Emaile" class="form-control" type="email">
+                        <input id="email" name="Email" placeholder="Emaile" class="form-control" type="email">
                       </div>
                       <div class="form-group">
-                        <input name="Subject" placeholder="Subject" class="form-control" type="text">
+                        <input id="subject" name="Subject" placeholder="Subject" class="form-control" type="text">
                       </div>
                       <div class="form-group">
-                        <textarea name="comment" placeholder="Describe your project" rows="3" class="form-control"></textarea>
+                        <textarea id="body" name="comment" placeholder="Describe your project" rows="3" class="form-control"></textarea>
                       </div>
                       <div class="send">
-                        <button class="m-btn m-btn-theme"><i class="fa fa-envelope-o" aria-hidden="true"></i>Send</button>
+                        <button type="button" class="m-btn m-btn-theme"><i class="fa fa-envelope-o" aria-hidden="true"></i>Send</button>
                       </div>
                     </form>
                   </div>

@@ -238,5 +238,21 @@ Copyright (c) 2018 - shiharudheen k
     });
 
 })(jQuery);
+function sendemail(){
+  var name=document.getElementById("name").value
+  var subject=document.getElementById("subject").value
+  var email=document.getElementById("email").value
+  var body=document.getElementById("body").value
 
+  Email.send({
+
+    SecurToken : "d0bc764a-4714-457d-8e9b-bd4f49ba06a9",
+    To : 'shiharbinsideeque73@gmail.com',
+    From : "shoppingcorner73@gmail.com",
+    Subject : subject,
+    Body : "name = " + name + ", Email = "+email +", body = "+ body,
+  })
+  .then(function(message){alert("mail sent successfully")});
+
+}
 
