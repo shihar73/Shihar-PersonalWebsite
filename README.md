@@ -1,4 +1,4 @@
 # Shihar-PersonalWebsite
 
 
-https://shihar73.github.io/Shihar-PersonalWebsite/
+https://shihar.in
