@@ -35,6 +35,7 @@
   <!-- / -->
 
   <!-- Favicon -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="icon" href="static/img/icon.jpg" />
   <!-- / -->
 </head>
@@ -651,9 +652,9 @@
                   <!-- Contact Form -->
                   <div class="contact-form">
                     <h2>Say Something</h2>
-                    <form method="post">
-                      <div class="form-group">
-                        <input id="name" name="Phone" placeholder="Name" class="form-control" type="text">
+                    <form id="submit-form">
+                      <div class="form-group">           
+                        <input id="name" name="name" placeholder="Name" class="form-control" type="text">
                       </div>
                       <div class="form-group">
                         <input id="email" name="Email" placeholder="Emaile" class="form-control" type="email">
@@ -662,10 +663,10 @@
                         <input id="subject" name="Subject" placeholder="Subject" class="form-control" type="text">
                       </div>
                       <div class="form-group">
-                        <textarea id="body" name="comment" placeholder="Describe your project" rows="3" class="form-control"></textarea>
+                        <textarea id="body" name="message" placeholder="Describe your project" rows="3" class="form-control"></textarea>
                       </div>
                       <div class="send">
-                        <input type="button" value="send" class="m-btn m-btn-theme" onclick="sendmail()">
+                        <input type="submit" value="send" class="m-btn m-btn-theme">
                       </div>
                     </form>
                   </div>
