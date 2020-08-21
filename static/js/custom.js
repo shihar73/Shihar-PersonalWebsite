@@ -4,7 +4,7 @@ EXCLUSIVE ON themeforest.net
 Template Name   : shihar
 Author          : shiharudheen k
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Copyright (c) 2018 - shiharudheen k
+Copyright (c) 2020 - shiharudheen k
 ========================================================================*/
   
 
